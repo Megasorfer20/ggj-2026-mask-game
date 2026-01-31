@@ -53,5 +53,7 @@ label escena_baile_carnaval:
 
     pj "(Y no sé si quiero descubrir qué es.)"
 
+    
+    jump duda_carnaval
     # Fin de lo solicitado. 
     return
