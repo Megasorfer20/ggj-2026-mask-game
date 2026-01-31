@@ -37,6 +37,6 @@ label encuentro_carnaval:
 
     "[nombre_jugador] continúa caminando, perdiéndose entre la música y el bullicio del carnaval."
 
-    # Aquí terminaría este bloque o saltaría al siguiente capítulo
-    # jump escena_encuentro_isa
+
+    jump escena_encuentro_isa
     return
