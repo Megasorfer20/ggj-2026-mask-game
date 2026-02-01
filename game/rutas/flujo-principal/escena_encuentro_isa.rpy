@@ -114,7 +114,7 @@ label saludo_cabello:
 
     isa "¿Eh?"
 
-    show personaje feliz
+    show personaje normal feliz
 
     "La sonrisa vuelve, suave, familiar."
 
@@ -126,7 +126,7 @@ label saludo_cabello:
 
     "Isa toma su máscara y se la pone."
 
-    show marimonda
+    show personaje brazo marimonda
 
     isa "Póntela tú también."
 
