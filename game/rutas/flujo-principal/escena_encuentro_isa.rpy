@@ -63,7 +63,7 @@ label saludo_emocionado:
 
     isa "Ah… Sí, claro."
 
-    show perosonaje preocupada_raro
+    show personaje preocupada_raro
 
     "Su sonrisa parece distante por un instante."
 
