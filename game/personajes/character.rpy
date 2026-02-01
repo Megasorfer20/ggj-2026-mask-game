@@ -35,7 +35,7 @@ layeredimage personaje:
         attribute feliz_raro "gui/images/personajes/cara19.png"
 
     group pelo:
-        attribute normal default "gui/images/personajes/pelo-normal.png"
+        attribute normal_pelo default "gui/images/personajes/pelo-normal.png"
         attribute despeinado "gui/images/personajes/pelo-raro.png"
         attribute mascara "gui/images/personajes/marimonda-masc.png"
 

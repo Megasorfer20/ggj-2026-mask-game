@@ -5,6 +5,8 @@ label opcion_no_llamar:
     pj "(No hace falta llamarla. Todo está planeado.)"
 
     "[nombre_jugador] se acerca a la mesita de noche y toma un cuadro."
+    
+    show Cuadro
 
     "En la foto, Isa y [nombre_jugador] están en el Malecón del Río Magdalena. El sol cae de fondo, el río brilla y ambos sonríen sin posar."
 
@@ -26,6 +28,8 @@ label opcion_no_llamar:
     pj "(Hoy puede ser diferente.)"
 
     "[nombre_jugador] deja el cuadro en su lugar y mira la máscara sobre la cama."
+
+    hide Cuadro
 
     pj "(Tal vez después de esta noche. Después del carnaval. Después de bailar, reír… y quitarnos las máscaras…)"
 

@@ -1,4 +1,6 @@
 label opcion_llamar_isa:
+
+    show Cel
     
     "[nombre_jugador] toma el teléfono del escritorio."
 
@@ -41,6 +43,8 @@ label opcion_llamar_isa:
     "[nombre_jugador] aprieta el teléfono con fuerza."
 
     pj "(Tal vez solo son los nervios. El carnaval pone así a cualquiera.)"
+
+    hide Cel
 
     "[nombre_jugador] deja el teléfono y respira hondo."
 
