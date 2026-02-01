@@ -3,7 +3,7 @@ label ruta_confesion_inicio:
     # --- ESCENA 7: Después del carnaval ---
     scene bg_calle_noche with fade # Placeholder o imagen calle noche
 
-    show personaje 
+    show personaje brazo feliz_derecha normal_pelo
 
     "El carnaval termina. Caminan juntos en silencio."
 
@@ -16,6 +16,8 @@ label ruta_confesion_inicio:
 
     # --- ESCENA 8: La habitación ---
     scene HABITACION with fade
+
+    show personaje normal feliz_entre normal_pelo
 
     "La habitación de [nombre_jugador]. Las máscaras descansan sobre la cama."
     "Isa está sentada, hablando de cosas triviales."
@@ -44,9 +46,15 @@ label ruta_confesion_inicio:
     pj "(Es como un cuenco vacío.)"
 
     "Isa nota la mirada de [nombre_jugador]."
+
+    show personaje brazo_dedo preocupada_raro despeinado
+
     "De pronto, reacciona."
 
     isa "¡Ah—!"
+
+    show personaje brazo_dedo feliz_raro despeinado
+
     "Isa ríe torpemente. Sus mejillas se sonrojan."
     isa "Qué tonto eres. No me juegues bromas así."
     "Desvía la mirada."

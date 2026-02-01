@@ -1,15 +1,21 @@
 label escena_rechazo:
     # --- ESCENA 9: La confesión rechazada ---
 
+    show personaje brazo_dedo feliz_raro despeinado
+
     pj "No es una broma. En serio te amo."
     "[nombre_jugador] traga saliva."
     pj "Te conozco desde siempre… y eres con quien quiero pasar mi vida."
+
+    show personaje normal neutra_larga despeinado
 
     "Isa lo mira."
     "No hay sorpresa. No hay enojo. No hay risa."
     "Solo vacío."
 
     pj "(No significa nada para ella.)"
+
+    show personaje normal preocupada despeinado
 
     "Isa suspira, aburrida. Lo observa con una expresión extraña."
     "No es desprecio. Es lástima. Como la que se le dedica a un insecto a punto de ser aplastado."
@@ -22,6 +28,8 @@ label escena_rechazo:
     isa "En serio. Para con eso. Eres molesto."
 
     "Se acerca un paso."
+
+    show personaje normal enojada_raro_izquierda despeinado
 
     isa "¿No lo ves?"
     "Sientes un nudo en el estómago."
@@ -55,6 +63,9 @@ label escena_rechazo:
             jump escena_alterna
 
 label ruta_correr_escape:
+
+    hide personaje
+    
     "[nombre_jugador] logra liberarse y corre fuera de la habitación."
     scene bg_pasillo with vpunch
     "Tu respiración es errática."

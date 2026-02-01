@@ -4,18 +4,19 @@ label escena_verdad_bajo_piel:
     show entidad_6
     isa "…"
     "Su voz es plana. Vacía."
-    isa "Tienes razón. Somos mejores amigos… ¿no?"
+    isa "Tienes razón. Somos mejores amigos… ¿no?" 
     isa "No debería ocultarte nada."
 
     "Un silencio antinatural."
     "Isa levanta ambas manos y las introduce en los orificios de su propio rostro."
     
-    hide entidad_6
-    show entidad_20
-
     pj "(No… no…)"
 
     "Se escucha un sonido húmedo. Isa tira."
+
+    hide entidad_6
+    show entidad_20
+
     "Su rostro se abre en dos. La piel se separa como una máscara viva."
     "Debajo no hay carne humana. Hay algo oscuro. Retorcido."
 

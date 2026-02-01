@@ -43,7 +43,7 @@ label final_mascara_tn:
     "La entidad te alcanza y arranca tu rostro con sus garras."
 
     scene black with fade
-    centered "{size=+10}{b}FINAL OBTENIDO{/b}{/size}\n\n{size=+5}«Máscara de T/N»{/size}"
+    centered "{size=+10}{b}FINAL OBTENIDO{/b}{/size}\n\n{size=+5}«Máscara de [nombre_jugador]»{/size}"
     return
 
 label final_mascara_permanente:

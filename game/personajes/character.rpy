@@ -31,7 +31,7 @@ layeredimage personaje:
         attribute preocupada_abajo "gui/images/personajes/cara15.png"
         attribute preocupada "gui/images/personajes/cara16.png"
         attribute preocupada_raro "gui/images/personajes/cara17.png"
-        attribute preocupada "gui/images/personajes/cara18.png"
+        attribute preocupada_feliz "gui/images/personajes/cara18.png"
         attribute feliz_raro "gui/images/personajes/cara19.png"
 
     group pelo:
