@@ -11,6 +11,7 @@ image CuadroR = "gui/images/objetos/cuadro_roto.png"
 ##### DEFINICION ESCENARIOS #####
 image HABITACION = "gui/images/escenarios/habitacion.png"
 image BANO = "gui/images/escenarios/bano.png"
+image bg_cocina = "gui/images/escenarios/cocina.png"
 
 
 # FONDOS (Placeholders para los que no tienes)
@@ -18,7 +19,6 @@ image BANO = "gui/images/escenarios/bano.png"
 image bg_sala_noche = Placeholder("bg")
 image bg_pasillo = Placeholder("bg")
 image bg_bano_sangre = Placeholder("bg")
-image bg_cocina = Placeholder("bg")
 image bg_ventana = Placeholder("bg")
 image bg_manicomio = Placeholder("bg")
 
