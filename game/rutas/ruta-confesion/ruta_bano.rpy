@@ -1,6 +1,6 @@
 label ruta_bano_inicio:
     # --- OCTAVA ELECCIÓN - BAÑO ---
-    scene bg_bano_sangre with fade
+    scene BANO  with fade
     "[nombre_jugador] entra al baño y cierra de golpe. Su corazón late con fuerza."
 
     menu:
@@ -14,6 +14,8 @@ label ruta_bano_inicio:
 label ruta_banera_descubrimiento:
     "[nombre_jugador] se acerca lentamente a la bañera."
     "El líquido es espeso. Rojo oscuro. Un olor metálico invade el aire."
+
+    scene bg_bano_sangre  with fade
     
     pj "(Sangre.)"
     
@@ -55,6 +57,9 @@ label final_policia:
 label final_volver_isa:
     scene bg_pasillo
     "[nombre_jugador] corre hacia la habitación."
+
+    show personaje brazo_dedo feliz_raro despeinado
+
     pj "¡Isa! ¡Hay un cadáver en el baño! ¡Vámonos!"
 
     isa "Eres muy ruidoso. Muy molesto."

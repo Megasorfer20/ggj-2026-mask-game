@@ -6,7 +6,7 @@ label opcion_no_llamar:
 
     "[nombre_jugador] se acerca a la mesita de noche y toma un cuadro."
     
-    show Cuadro
+    show Cuadro at truecenter
 
     "En la foto, Isa y [nombre_jugador] están en el Malecón del Río Magdalena. El sol cae de fondo, el río brilla y ambos sonríen sin posar."
 
