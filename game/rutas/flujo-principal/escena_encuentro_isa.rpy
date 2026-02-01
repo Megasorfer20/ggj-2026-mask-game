@@ -6,7 +6,7 @@ label escena_encuentro_isa:
 
     pj "(Ahí está.)"
 
-|   show personajes
+|   show personaje feliz Entre
 
     "Por un instante, el mundo parece detenerse."
 
@@ -56,6 +56,8 @@ label escena_encuentro_isa:
 label saludo_emocionado:
 
     pj "Hola, Isa. Estoy emocionado… ¿y tú?"
+
+    show personaje preocupada_abajo
 
     "Isa se queda en silencio un segundo de más."
 
