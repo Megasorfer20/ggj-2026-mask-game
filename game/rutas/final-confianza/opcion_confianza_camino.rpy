@@ -4,7 +4,7 @@ label opcion_confianza_camino:
     
     "Caminamos juntos en silencio."
     "Me detengo."
-    
+    show personaje at center 
     pj "Pensé que confiabas en mí."
     
     "Isa se queda quieta."
