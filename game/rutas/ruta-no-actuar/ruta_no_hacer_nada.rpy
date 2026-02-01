@@ -41,6 +41,8 @@ label ruta_no_hacer_nada:
     scene black with fade
     centered "Años después..."
 
+    scene bg_cocina
+
     pj "(Nunca le dije lo que sentía.)"
 
     "Un día, el silencio es absoluto."

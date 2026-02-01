@@ -29,10 +29,10 @@ label ruta_banera_descubrimiento:
         "Inspeccionar cadáver":
             jump ruta_inspeccionar_cadaver
         
-        "Salir corriendo (Avisar policía)":
+        "Salir corriendo":
             jump final_policia
             
-        "Volver con Isa (Huir juntos)":
+        "Volver con Isa":
             jump final_volver_isa
 
 label final_policia:
@@ -50,6 +50,8 @@ label final_policia:
     
     scene bg_manicomio with dissolve
     pj "Isa…"
+
+    scene black with fade
 
     centered "{size=+10}{b}FINAL OBTENIDO{/b}{/size}\n\n{size=+5}«Cuando quitar la máscara no es suficiente»{/size}"
     return
@@ -71,6 +73,7 @@ label final_volver_isa:
     
     entidad "Este recipiente… me durará un poco más."
 
+    scene black with fade
     centered "{size=+10}{b}FINAL OBTENIDO{/b}{/size}\n\n{size=+5}«Una máscara a la vez»{/size}"
     return
 
@@ -96,7 +99,7 @@ label final_verdad_revelada:
     show entidad_42
     entidad "Seguiré jugando con Isa… y tú serás la siguiente máscara."
     hide entidad_42
-    show entidad_43
+    scene black with fade
     centered "{size=+10}{b}FINAL OBTENIDO{/b}{/size}\n\n{size=+5}«La verdad revelada»{/size}"
     return
 
@@ -126,7 +129,9 @@ label final_reflejo:
     
     "Te arranca el rostro y se lo pone."
     entidad "Encaja perfecto."
-
+    
+    scene black with fade
+    
     centered "{size=+10}{b}FINAL OBTENIDO{/b}{/size}\n\n{size=+5}«El reflejo que te mira»{/size}"
     return
 
@@ -140,6 +145,8 @@ label final_rostro_nadie_quiso:
     entidad "Tsk. Ni siquiera vales la pena como máscara."
     
     "Te derriba y te desangras solo en la penumbra."
+    
+    scene black with fade
 
     centered "{size=+10}{b}FINAL OBTENIDO{/b}{/size}\n\n{size=+5}«Rostro que nadie quiso»{/size}"
     return
