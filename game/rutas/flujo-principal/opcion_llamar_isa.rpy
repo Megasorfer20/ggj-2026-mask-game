@@ -1,5 +1,5 @@
 label opcion_llamar_isa:
-
+    
     "[nombre_jugador] toma el teléfono del escritorio."
 
     "[nombre_jugador] enciende la pantalla. Aparece la foto de Isa: está sacando la lengua, con el cabello alborotado por el viento. [nombre_jugador] recuerda haber tomado esa foto una tarde cualquiera, sin que ella se diera cuenta."

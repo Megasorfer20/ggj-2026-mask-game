@@ -14,11 +14,5 @@
     if nombre_jugador == "":
         $ nombre_jugador = "T/N"
 
-    # 5. Usamos el nombre. 
-    # Como 'pj' ya fue definido en definitions.rpy (al inicio), esto ya no fallará.
-    pj "¡Hola! Me llamo [nombre_jugador] y esta es mi historia."
-    
-    "Narrador" "Bienvenido, [nombre_jugador]."
-    
     # Saltamos a la historia principal
     jump main
