@@ -80,7 +80,7 @@ label saludo_emocionado:
 
     isa "Vamos, ¿no? No podemos llegar tarde."
 
-    show personaje mascara
+    show personaje normal mascara
 
     "Isa se coloca la máscara y mira a [nombre_jugador]."
 
@@ -124,9 +124,10 @@ label saludo_cabello:
 
     isa "Vamos, [nombre_jugador]. El carnaval ya empezó."
 
+    show personaje normal mascara
+
     "Isa toma su máscara y se la pone."
 
-    show personaje brazo marimonda
 
     isa "Póntela tú también."
 
