@@ -63,9 +63,13 @@ label saludo_emocionado:
 
     isa "Ah… Sí, claro."
 
+    show perosonaje preocupada_raro
+
     "Su sonrisa parece distante por un instante."
 
     pj "(¿Siempre tardaba tanto en responder?)"
+
+    show personaje 
 
     "Isa parpadea… y de pronto su expresión cambia."
 
