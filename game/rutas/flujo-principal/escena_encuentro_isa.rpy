@@ -1,4 +1,4 @@
-label encuentro_isa:
+label escena_encuentro_isa:
 
     # --- ESCENA 4: El encuentro ---
 
