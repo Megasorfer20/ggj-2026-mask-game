@@ -6,7 +6,7 @@ label escena_encuentro_isa:
 
     pj "(Ahí está.)"
 
-|   show personaje feliz Entre
+|   show personaje feliz_entre
 
     "Por un instante, el mundo parece detenerse."
 
