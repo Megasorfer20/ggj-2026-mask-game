@@ -363,7 +363,40 @@ screen main_menu():
 
     ## La sentencia 'use' incluye otra pantalla dentro de esta. El contenido
     ## real del menú principal está en la pantalla de navegación.
-    use navigation
+    ##use navigation
+
+##### IMAGEBUTTON RENPY #####
+## Contenedor para los botones  
+    vbox:  
+        xalign 0.5
+        yalign 0.5
+        spacing 50
+
+## Espaciado entre botones  
+        imagebutton:  
+            idle "gui/Botones/jugar_idle.png"  
+            hover "gui/Botones/jugar_hover.png"  
+            action Start()  
+
+        imagebutton:  
+            idle "gui/Botones/cargar_idle.png"  
+            hover "gui/Botones/cargar_hover.png"  
+            action ShowMenu("load")  
+
+        imagebutton:  
+            idle "gui/Botones/opciones_idle.png"  
+            hover "gui/Botones/opciones_hover.png"  
+            action ShowMenu("preferences")  
+         
+        imagebutton:  
+            idle "gui/Botones/ayuda_idle.png"  
+            hover "gui/Botones/ayuda_hover.png"  
+            action ShowMenu("help")
+
+        imagebutton:  
+            idle "gui/Botones/salir_idle.png"  
+            hover "gui/Botones/salir_hover.png"  
+            action Quit()
 
     if gui.show_name:
 
@@ -373,8 +406,8 @@ screen main_menu():
             text "[config.name!t]":
                 style "main_menu_title"
 
-            text "[config.version]":
-                style "main_menu_version"
+            #text "[config.version]":
+                #style "main_menu_version"
 
 
 style main_menu_frame is empty
@@ -387,14 +420,14 @@ style main_menu_frame:
     xsize 560
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    ##background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
-    xalign 1.0
-    xoffset -40
-    xmaximum 1600
-    yalign 1.0
-    yoffset -40
+    xalign 0.5
+    #xoffset 0
+    xmaximum 1200
+    yalign 0
+    yoffset 80
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)

@@ -13,7 +13,7 @@
 ##
 ## El _() que rodea la cadena de texto la señala como traducible.
 
-define config.name = _("ggj 2026")
+define config.name = _("El carnaval de máscaras")
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.

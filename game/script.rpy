@@ -1,4 +1,6 @@
 ﻿label start:
+
+    scene HABITACION
     # 3. Pedimos el nombre
     "Antes de comenzar..."
     
