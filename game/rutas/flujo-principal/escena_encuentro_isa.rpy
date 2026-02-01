@@ -6,6 +6,8 @@ label escena_encuentro_isa:
 
     pj "(Ahí está.)"
 
+|   show personajes
+
     "Por un instante, el mundo parece detenerse."
 
     pj "(Isa… Se ve radiante.)"

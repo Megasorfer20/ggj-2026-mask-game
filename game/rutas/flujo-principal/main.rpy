@@ -11,6 +11,8 @@ label main:
 
     pj "No recuerdo la última vez que me sentí así…{w} como si el pecho me vibrara por dentro."
 
+    show marimonda
+
     "[nombre_jugador] toma una de las máscaras y la observa."
 
     pj "El Carnaval de Barranquilla. Meses hablando de esto… meses planeándolo… y por fin llegó."
@@ -27,9 +29,14 @@ label main:
 
     pj "Tal vez porque tengo miedo de romper algo. O porque detrás de esta amistad… prefiero esconderme como detrás de una máscara."
 
+    hide marimonda
+    show Cel
+
     "[nombre_jugador] mira su celular sobre el escritorio."
 
     pj "Dijimos que nos encontraríamos a la misma hora de siempre. Todo está perfectamente planeado."
+
+    hide Cel
 
     # Pausa dramática
     window hide
