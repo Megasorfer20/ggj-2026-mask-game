@@ -71,5 +71,6 @@ label ruta_confesion_inicio:
         "No es una broma. En serio te amo. Te conozco desde siempre y eres con quien quiero pasar mi vida.":
             jump opcion_insistir_amor
 
+        # CAMBIO AQUÍ: Ahora salta a la escena de horror
         "¿Qué te pasa? No eres la misma de siempre. ¿Qué me estás ocultando?":
-            jump opcion_sospecha_habitacion
+            jump escena_verdad_bajo_piel

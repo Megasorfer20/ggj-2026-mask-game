@@ -44,8 +44,9 @@ label ruta_confrontacion_inicio:
     menu:
         "¿Qué decir ahora?"
 
+        # CAMBIO AQUÍ: Ahora salta a la escena de horror
         "¿Qué te pasa? No eres la misma de siempre. ¿Qué me estás ocultando?":
-            jump opcion_sospecha_camino
+            jump escena_verdad_bajo_piel
 
         "Pensé que confiabas en mí.":
             jump opcion_confianza_camino
