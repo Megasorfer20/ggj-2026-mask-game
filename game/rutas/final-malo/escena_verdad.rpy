@@ -47,6 +47,6 @@ label final_paralizado:
     "El miedo te congela."
     entidad "Pobre criatura..."
     "La entidad avanza y todo se vuelve negro."
-    
+    scene black with fade
     centered "{size=+10}{b}FINAL OBTENIDO{/b}{/size}\n\n{size=+5}«La máscara definitiva (Paralizado)»{/size}"
     return
