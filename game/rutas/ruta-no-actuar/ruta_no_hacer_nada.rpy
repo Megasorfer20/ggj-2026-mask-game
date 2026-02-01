@@ -2,7 +2,11 @@ label ruta_no_hacer_nada:
 
     # --- ESCENA FINAL: El silencio ---
 
+    scene bg_calle_noche
+
     "El carnaval termina. La noche pasa."
+
+    show personaje normal
 
     pj "(Decidí no decir nada.)"
 
@@ -12,9 +16,15 @@ label ruta_no_hacer_nada:
     
     # Aquí puedes restaurar el fondo si quieres, o dejarlo en negro/gris
     
+    scene HABITACION
+
     pj "(A partir de ese día… Isa empezó a alejarse.)"
 
+    show Cel
+
     "Conversaciones cortas. Mensajes sin emoción."
+
+    hide Cel
 
     pj "(Ya no se sentía cercana.)"
 

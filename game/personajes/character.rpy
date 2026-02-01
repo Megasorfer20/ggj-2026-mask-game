@@ -32,11 +32,11 @@ layeredimage personaje:
         attribute preocupada_abajo "gui/images/personajes/cara15.png"
         attribute preocupada "gui/images/personajes/cara16.png"
         attribute preocupada_raro "gui/images/personajes/cara17.png"
-        attribute preocupada "gui/images/personajes/cara18.png"
+        attribute preocupada_feliz "gui/images/personajes/cara18.png"
         attribute feliz_raro "gui/images/personajes/cara19.png"
 
     group pelo:
-        attribute normal default "gui/images/personajes/pelo-normal.png"
+        attribute normal_pelo default "gui/images/personajes/pelo-normal.png"
         attribute despeinado "gui/images/personajes/pelo-raro.png"
         attribute mascara "gui/images/personajes/marimonda-masc.png"
 
