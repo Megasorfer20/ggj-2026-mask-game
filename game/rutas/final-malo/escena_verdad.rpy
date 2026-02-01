@@ -17,7 +17,7 @@ label escena_verdad_bajo_piel:
 
     "Se escucha un sonido húmedo. Isa tira."
     "Su rostro se abre en dos. La piel se separa como una máscara viva."
-    "Debajo no hay carne humana. Hay algo oscuro. Retorcido."}
+    "Debajo no hay carne humana. Hay algo oscuro. Retorcido."
 
     hide entidad_20
     show entidad_26
