@@ -78,9 +78,9 @@ label ruta_inspeccionar_cadaver:
     # --- DÉCIMA ELECCIÓN ---
     "[nombre_jugador] se arrodilla. Observa el cabello rizado y rojo."
     pj "(Es Isa.)"
-    
+    show entidad_1
     "Pasos lentos se acercan."
-    
+    hide entidad_1
     menu:
         "Esconderse en bañera":
             jump ruta_esconderse_banera_exito
@@ -89,11 +89,14 @@ label ruta_inspeccionar_cadaver:
             jump final_verdad_revelada
 
 label final_verdad_revelada:
+    show entidad_43
     "[nombre_jugador] corre. Un golpe. La entidad lo alcanza."
     "Manos lo sujetan. El rostro es arrancado."
-    
+    hide entidad_43
+    show entidad_42
     entidad "Seguiré jugando con Isa… y tú serás la siguiente máscara."
-
+    hide entidad_42
+    show entidad_43
     centered "{size=+10}{b}FINAL OBTENIDO{/b}{/size}\n\n{size=+5}«La verdad revelada»{/size}"
     return
 
