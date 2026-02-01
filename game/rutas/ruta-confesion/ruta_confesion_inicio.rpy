@@ -2,6 +2,9 @@ label ruta_confesion_inicio:
 
     # --- ESCENA 7: Después del carnaval ---
     scene bg_calle_noche with fade # Placeholder o imagen calle noche
+
+    show personaje 
+
     "El carnaval termina. Caminan juntos en silencio."
 
     pj "(No. Esto son tonterías mías.)"
