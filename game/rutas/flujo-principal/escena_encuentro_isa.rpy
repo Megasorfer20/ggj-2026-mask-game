@@ -114,6 +114,8 @@ label saludo_cabello:
 
     isa "¿Eh?"
 
+    show personaje feliz
+
     "La sonrisa vuelve, suave, familiar."
 
     isa "No, ¿por qué?"
@@ -123,6 +125,8 @@ label saludo_cabello:
     isa "Vamos, [nombre_jugador]. El carnaval ya empezó."
 
     "Isa toma su máscara y se la pone."
+
+    show marimonda
 
     isa "Póntela tú también."
 
