@@ -7,6 +7,7 @@ label opcion_confianza_camino:
     show personaje at center 
     pj "Pensé que confiabas en mí."
     
+
     "Isa se queda quieta."
     "Su cuerpo tiembla apenas un segundo."
     "Un pequeño espasmo recorre su cuello."

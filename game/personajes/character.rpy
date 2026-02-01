@@ -9,6 +9,7 @@ define entidad = Character("Entidad", color="#800000")
 layeredimage personaje:
     group cuerpo:
         # Atributo | "Ruta de la imagen"
+        
         attribute normal default "gui/images/personajes/Movimiento1.png"
         attribute brazo "gui/images/personajes/Movimiento2.png"
         attribute dedo "gui/images/personajes/Movimiento4.png"
