@@ -1,5 +1,6 @@
 label main:
 
+    scene HABITACION
     # --- ESCENA 1: Antes de la máscara ---
     
     # Nota: Aquí usamos [nombre_jugador] para que el narrador diga el nombre real.

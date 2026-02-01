@@ -5,6 +5,8 @@ label escena_baile_carnaval:
     # Aquí puedes poner música fuerte de carnaval
     # play music "carnaval_loop.ogg" loop
 
+    scene HABITACION
+
     "La música es ensordecedora. Colores, risas, baile."
 
     "[nombre_jugador] e Isa se mueven entre la multitud."
