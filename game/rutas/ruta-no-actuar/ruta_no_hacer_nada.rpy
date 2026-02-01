@@ -47,6 +47,8 @@ label ruta_no_hacer_nada:
 
     "Un día, el silencio es absoluto."
 
+    scene bg_ventana
+
     pj "(Hasta que un día… simplemente desapareció.)"
 
     # FIN DEL JUEGO PARA ESTA RUTA
