@@ -1,7 +1,7 @@
 default nombre_jugador = "T/N"
-define pj = Character("[nombre_jugador]")
+define pj = Character("[nombre_jugador]",color="#de6617")
 define narrador = Character(None)
-define isa = Character("Isa", color="#ffcccc") # Puedes cambiar el color
+define isa = Character("Isa", color="#e2bd15") # Puedes cambiar el color
 define entidad = Character("Entidad", color="#800000") 
 
 ##### DEFINICION PERSONAJES #####
