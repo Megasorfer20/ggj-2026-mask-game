@@ -63,17 +63,24 @@ label saludo_emocionado:
 
     isa "Ah… Sí, claro."
 
+    show perosonaje preocupada_raro
+
     "Su sonrisa parece distante por un instante."
 
     pj "(¿Siempre tardaba tanto en responder?)"
+
 
     "Isa parpadea… y de pronto su expresión cambia."
 
     isa "¡Obvio que sí! Es el carnaval, [nombre_jugador]."
 
+    show personaje feliz
+
     "Isa ríe, cálida, brillante. Como el sol."
 
     isa "Vamos, ¿no? No podemos llegar tarde."
+
+    show personaje mascara
 
     "Isa se coloca la máscara y mira a [nombre_jugador]."
 
