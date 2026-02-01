@@ -69,15 +69,18 @@ label saludo_emocionado:
 
     pj "(¿Siempre tardaba tanto en responder?)"
 
-    show personaje 
 
     "Isa parpadea… y de pronto su expresión cambia."
 
     isa "¡Obvio que sí! Es el carnaval, [nombre_jugador]."
 
+    show personaje feliz
+
     "Isa ríe, cálida, brillante. Como el sol."
 
     isa "Vamos, ¿no? No podemos llegar tarde."
+
+    show personaje mascara
 
     "Isa se coloca la máscara y mira a [nombre_jugador]."
 
