@@ -4,7 +4,7 @@ image CelR = "gui/images/objetos/celular_roto.png"
 image Cuadro = "gui/images/objetos/cuadro.png"
 image CuadroR = "gui/images/objetos/cuadro_roto.png"
 image marimonda = "gui/images/personajes/marimonda.png"
-image personas = "gui/images/personajes/v3.png"
+image personas = "gui/images/escenarios/v3.png"
 
 ##### DEFINICION ESCENARIOS #####
 image HABITACION = "gui/images/escenarios/habitacion.png"
