@@ -38,7 +38,10 @@ label escena_verdad_bajo_piel:
 
         "Quedarse paralizado":
             jump final_paralizado
-            
+    
+    hide entidad_43
+    show entidad_46
+    
 label final_paralizado:
     "El miedo te congela."
     entidad "Pobre criatura..."
